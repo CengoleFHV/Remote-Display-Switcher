@@ -1,0 +1,58 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Build output (keep PCDisplaySwitch.spec under version control)
+/build/
+/dist/
+*.exe
+*.dll
+*.pyd
+*.msi
+*.zip
+*.7z
+
+# External MultiMonitorTool installation
+/MultiMonitorTool/
+MultiMonitorTool.cfg
+
+# Machine-specific display profiles, backups, and logs
+/profiles/
+desk.cfg
+tv.cfg
+*.backup.cfg
+.verify-*.cfg
+.desk-*.cfg
+.tv-*.cfg
+*.log
+*.log.*
+/_old/
+
+# Test and analysis output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.idea/
+.vscode/
+.vs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
